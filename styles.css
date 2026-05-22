@@ -2004,16 +2004,16 @@ ul, ol { list-style: none; }
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,253,247,0.97);
-    backdrop-filter: blur(20px);
+    background: var(--navy-deep);
     padding: 6rem 2rem 2rem;
     gap: 1.5rem;
     z-index: 999;
+    overflow-y: auto;
   }
 
   .nav-links.mobile-open a {
     font-size: 1.25rem;
-    color: var(--charcoal);
+    color: var(--white);
   }
 
   .nav-links.mobile-open .nav-cta {
